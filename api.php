@@ -10,11 +10,6 @@
         }
     }
 
-    $Obj = new stdClass();
-    $Obj->files = $files;
-
-    $JSON = json_encode($Obj);
-
-    echo $JSON;
+    echo $files;
 
 ?>
